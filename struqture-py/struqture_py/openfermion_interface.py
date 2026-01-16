@@ -24,6 +24,7 @@ def struqture_to_openfermion(struqture_hamiltonian: PauliHamiltonian):
             operator = term.get(spin)
             openfermion_term_str += f"{operator}{spin}"
         openfermion_hamiltonian += value.float() * QubitOperator(openfermion_term_str)
+    return openfermion_hamiltonian
 
 
 def openfermion_to_struqture(openfermion_hamiltonian: QubitOperator):
