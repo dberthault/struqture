@@ -3,7 +3,7 @@ from openfermion import QubitOperator
 
 
 def struqture_to_openfermion(struqture_hamiltonian: PauliHamiltonian):
-    """Transforms a struqture Hamiltonian to an OpenFermion Hamiltonian.
+    """Transform a struqture Hamiltonian to an OpenFermion Hamiltonian (QubitOperator).
 
     Args:
         struqture_hamiltonian (PauliHamiltonian): struqture hamiltonian to be transformed.
@@ -27,7 +27,7 @@ def struqture_to_openfermion(struqture_hamiltonian: PauliHamiltonian):
 
 
 def openfermion_to_struqture(openfermion_hamiltonian: QubitOperator):
-    """Transforms an OpenFermion Hamiltonian to a struqture Hamiltonian.
+    """Transform an OpenFermion Hamiltonian (QubitOperator) to a struqture Hamiltonian.
 
     Args:
         openfermion_hamiltonian (QubitOperator): OpenFermion Hamiltonian to be transformed.
