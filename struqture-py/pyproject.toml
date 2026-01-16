@@ -32,4 +32,5 @@ docs = [
   "myst_parser",
   "sphinx_rtd_theme",
   "tomli",
+  "openfermion"
 ]
