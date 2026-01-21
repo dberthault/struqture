@@ -25,6 +25,5 @@ try:
     from .openfermion_interface import *  # type: ignore
 except ImportError:
     pass  # OpenFermion interface is optional and not available
-# from .openfermion_interface import struqture_to_openfermion, openfermion_to_struqture  # type: ignore
 
 __license__ = "Apache-2.0"
