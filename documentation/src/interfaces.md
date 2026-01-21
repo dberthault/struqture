@@ -17,7 +17,7 @@ Struqture also has an interface to the [OpenFermion](https://quantumai.google/op
 OpenFermion is an open-source library for compiling and analyzing quantum algorithms to simulate fermionic systems, including quantum chemistry. Among other functionalities, this version features data structures and tools for obtaining and manipulating representations of fermionic and qubit Hamiltonians.
 This interface is aimed at any user already using openfermion who wants to create and use Hamiltonians with struqture. It can also be of use to users using struqture to define Hamiltonians and want to use [cirq](https://quantumai.google/cirq), for which OpenFermion formalism is needed.
 
-In order to use this interface openfermion needs to be installed with
+In order to use this interface openfermion needs to be installed with the following command otherwhise the interface won't be exported by struqture.
 
 ```bash
 pip install openfermion
