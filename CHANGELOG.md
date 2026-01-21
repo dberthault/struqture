@@ -4,6 +4,9 @@ This changelog track changes to the struqture project starting at version v1.0.0
 
 ## Unreleased
 
+## 2.4.0
+
+* Added an OpenFermion interface.
 * Updated minimum supported Python version to 3.10.
 
 ## 2.3.2

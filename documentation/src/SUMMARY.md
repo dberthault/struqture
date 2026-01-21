@@ -35,3 +35,4 @@
     - [Operators and Hamiltonians](container_types/operators_hamiltonians.md)
     - [Lindblad Noise Operators](container_types/noise_operators.md)
     - [Lindblad Open Systems](container_types/open_systems.md)
+- [Interface to other packages](interfaces.md)
