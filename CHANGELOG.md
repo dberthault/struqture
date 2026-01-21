@@ -4,6 +4,10 @@ This changelog track changes to the struqture project starting at version v1.0.0
 
 ## Unreleased
 
+## 2.4.3
+
+* Fixed import issues with the openfermion interface.
+
 ## 2.4.2
 
 * Moved `openfermion` to a test dependency.
